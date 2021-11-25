@@ -12,7 +12,7 @@ jobs:
     name: Comment Activity.
     steps:
       - name: Comentando Atividade
-        uses: mobral-inc/-artia-new-comment-on-pull-request-teste-1@main
+        uses: solinftec/artia-new-comment-on-pull-request@main
         with:
           organizationId: ${{ secrets.BOT_ARTIA_ORG_ID }}
           creatorEmail: ${{ secrets.BOT_ARTIA_EMAIL }}
